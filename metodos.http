@@ -1,0 +1,17 @@
+GET http://localhost:5116/times
+
+###
+
+GET http://localhost:5116/times/3
+
+###
+
+POST http://localhost:5116/times/
+Content-Type: application/json
+
+{
+  "nome": "Real Madrid",
+  "cidade": "Madrid",
+  "titulosBrasileiros": 0,
+  "titulosMundiais": 9
+}
