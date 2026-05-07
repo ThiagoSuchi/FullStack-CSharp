@@ -15,3 +15,19 @@ Content-Type: application/json
   "titulosBrasileiros": 0,
   "titulosMundiais": 9
 }
+
+###
+
+PUT http://localhost:5116/times/3
+Content-Type: application/json
+
+{
+  "nome": "Barcelona",
+  "cidade": "Espanha",
+  "titulosBrasileiros": 0,
+  "titulosMundiais": 3
+}
+
+###
+
+DELETE http://localhost:5116/times/4
